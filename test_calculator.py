@@ -1,4 +1,4 @@
-cat <<EOF > test_calculator.py
+test_calculator.py
 import unittest
 from calculator import add, subtract
 class TestCalculator(unittest.TestCase):
@@ -8,4 +8,3 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(subtract(10, 5), 5)
 if __name__ == '__main__':
     unittest.main()
-EOF
